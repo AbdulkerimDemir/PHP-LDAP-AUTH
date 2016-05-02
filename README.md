@@ -12,3 +12,6 @@ This is a LDAP Authentication script purely made with PHP. Before you start usin
 Make sure that you edit these variables to whatever you need it to be otherwise it will not work. I hope this is a good enough example to help you out making your own or even using this LDAP Authentication script. I tried my hardest to make it look organized and easy for even beginners.
 
 If this helped you out and you feel generous feel free to donate to support the creator: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=abdulkerim_demir2%40hotmail%2ecom&lc=NL&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+
+
+I aplogize for my English. It isn't my native language.
