@@ -1,0 +1,225 @@
+@charset "utf-8";
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+	color:#fff;
+	background:url(../images/black-paper.png) #000000 left top repeat;
+}
+
+/* Login */
+.LoginWrapper {
+	margin: 0 auto;
+	background:url(../images/60-lines.png) rgba(128, 128, 128, 0.5) left top repeat;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border: 1px solid #8b0000;
+	padding: 10%;
+}
+
+.LoginContent {
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.LoginContent span {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+}
+
+.inputs {
+	font-family: "Courier New", Courier, monospace;
+	text-align:center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #EAEAEA;
+    background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA));
+    border: 1px solid #CACACA;
+	outline: none;
+    color: #444;
+    font-size: 1.4em;
+    margin: 10px 0 10px;
+    padding: 5px 9px;
+    width: 50%;
+}
+
+.inputs:focus {
+    background: #FFF;
+    -webkit-box-shadow: 0 0 25px #CCC;
+    -moz-box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 25px #CCC;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.01);
+}
+
+.send {
+	font-family: "Courier New", Courier, monospace;
+	text-align:center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #8b0000 ;
+    background: -moz-linear-gradient(top, #FFF, #8b0000 );
+    border: 1px solid #CACACA;
+	outline: none;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin: 0 0 10px;
+    padding: 5px 9px;
+    width: 	30%;
+}
+
+.send:focus {
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.send:hover {
+    background-color: #a50000;
+}
+
+.Footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background:url(../images/60-lines.png) rgba(128, 128, 128, 0.5) left top repeat;
+	text-align: center;
+	border-top: 2px solid #8b0000;
+}
+
+/* Index - Banner */
+.IndexWrapper {
+	margin: 0 auto;
+	background:url(../images/60-lines.png) rgba(128, 128, 128, 0.5) left top repeat;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border: 1px solid #8b0000;
+	padding: 1%;
+}
+
+.IndexContent {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.IndexBanner {
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	padding: 1%;
+}
+
+.IndexBanner h4{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12x;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+.BannerLeft{
+	display: inline-block;
+}
+
+.BannerRight{
+	display: inline-block;
+	float: right;
+}
+
+.Navigation li{
+	display: inline-block;
+}
+	
+.Navigation a{
+	display: block;
+	padding: 0.5em 5em;
+	border: 1px solid #8b0000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	font-weight: 700;
+	color: #FFF;
+	margin-right: 5px;
+}
+	
+.Navigation .current_page_item a{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border: 1px solid #8b0000;
+	background: rgba(255,255,255,0.1);
+}
+
+.Navigation a:hover {
+	box-shadow: 0 0px 4px rgba(0,0,0,1);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+	border: 1px solid;
+	border: 1px solid #8b0000;
+}
+
+.Navigation li{
+	display: inline-block;
+}
+	
+.Navigation a{
+	display: block;
+	padding: 0.5em 5em;
+	border: 1px solid #8b0000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	font-weight: 700;
+	color: #FFF;
+	margin-right: 5px;
+}
+	
+.Navigation .current_page_item a{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border: 1px solid #8b0000;
+	background: rgba(255,255,255,0.1);
+}
+
+.Logout  a{
+	padding: 0.5em 3em;
+	background: rgba(139,0,0,0.4);
+}
+
+.Navigation a:hover {
+	box-shadow: 0 0px 4px rgba(0,0,0,1);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+	border: 1px solid;
+	border: 1px solid #8b0000;
+}
+/* Index Content */
+.IndexContent span {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+}
+
+/* Footer */
+.Footer span {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.Footer a { 
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.Footer a:hover {
+	color: #8b0000;
+
+}
