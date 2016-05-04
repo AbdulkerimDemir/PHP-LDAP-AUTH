@@ -1,4 +1,4 @@
-# PHP-LDAP-AUTH
+# PHP-LDAP-AUTHENTICATION
 This is a LDAP Authentication script purely made with PHP. Before you start using this you do need to edit LDAP_Plugin.php in \functions\LDAP_Plugin.php . 
 
 	$ldaphost = "IP ADDRESS";  //LDAP HOST IP For example 192.168.204.131
